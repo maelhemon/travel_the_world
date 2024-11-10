@@ -1,13 +1,25 @@
 img {
   width: 4em;
   height: 2em;
+}
 
-.sour-gummy-tittle {
+.sour-gummy-title {
   font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 325;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
+header{
+  display:flex;
+  align-items: center;
+  color: #e9efef;
+}
+
+body{
+  background-color:#5451b7 ;
+}
+
+
 
