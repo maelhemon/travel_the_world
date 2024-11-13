@@ -1,6 +1,8 @@
 img {
-  width: 4em;
-  height: 2em;
+  width: 3em;
+  height: 2.5em;
+  margin-left: 1.2em;
+
 }
 
 .sour-gummy-title {
@@ -15,11 +17,21 @@ header{
   display:flex;
   align-items: center;
   color: #e9efef;
+  margin-left: 1em;
+  font-size: 1.5em;
 }
 
 body{
-  background-color:#5451b7 ;
+  background-color:#000000 ;
+}
+.onglets{
+  font-family: Roboto Slab;
+  display: flex;
+  justify-content:;
+  
+
 }
 
-
-
+.texte{
+  color: white;
+}
