@@ -24,14 +24,17 @@ header{
 body{
   background-color:#000000 ;
 }
-.onglets{
-  font-family: Roboto Slab;
+
+.onglets {
+  font-family: "Roboto Slab", serif;
   display: flex;
-  justify-content:center;
-  
-
+  justify-content: flex-end; /* Aligner les onglets à droite */
+  align-items: center; /* Centrer verticalement */
+  gap: 1.25rem; 
+  margin-left: auto; 
+  margin-right: 2em;
 }
-
 .texte{
   color: white;
 }
+
