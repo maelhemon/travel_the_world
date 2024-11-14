@@ -51,5 +51,18 @@ body{
   justify-content: center;
 }
 .images{
-  font-size: 8em;
+  font-size: 15em;
+  margin-left: 0.5em;
+  margin-bottom: 1em;
+  margin-right: 1rem;
+  margin-top: 0.5em;
+}
+.destination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.destination{
+  color: aliceblue;
 }
