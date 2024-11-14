@@ -1,10 +1,11 @@
-img {
+.logo {
+  font-size: 2em;
   width: 3em;
   height: 2.5em;
   margin-left: 1.2em;
+  margin-left: 0.2em;
 
 }
-
 .sour-gummy-title {
   font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
@@ -13,6 +14,7 @@ img {
   font-variation-settings:
     "wdth" 100;
 }
+
 header{
   display:flex;
   align-items: center;
@@ -20,11 +22,9 @@ header{
   margin-left: 1em;
   font-size: 1.5em;
 }
-
 body{
   background-color:#000000 ;
 }
-
 .onglets {
   font-family: "Roboto Slab", serif;
   display: flex;
@@ -36,25 +36,28 @@ body{
 }
 .texte{
   color: rgb(255, 255, 255);
-  size: 2em;
+  font-size: 1em;
   margin-top: 2em;
   display: flex;
   justify-content: center;
-  font-size: "Montserrat", serif;
+  font-family: "Montserrat", serif;
+  margin-left: 2em;
 }
 .top{
   color: rgb(240, 240, 240);
-  font-size: "Montserrat", serif;
-  font-size: 2em;
+  font-family: "Montserrat", serif;
+  font-size: 1.5em;
   display:flex;
   margin-top: 2em;
   justify-content: center;
 }
 .images{
-  font-size: 15em;
-  margin-left: 0.5em;
-  margin-bottom: 1em;
-  margin-right: 1rem;
+  font-size: 13em;
+  width: 3em;
+  height: 2.5em;
+  margin-left: 0.8em;
+  margin-bottom: 0.5em;
+  margin-right: 2.5rem;
   margin-top: 0.5em;
 }
 .destination{
@@ -63,6 +66,14 @@ body{
   align-items: center;
 
 }
-.destination{
+.description{
   color: aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  color: aliceblue;
+  display: flex;
+  justify-content:center ;
+  margin-bottom: 2em;
 }
