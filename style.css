@@ -33,6 +33,7 @@ body{
   gap: 1.25rem; 
   margin-left: auto; 
   margin-right: 2em;
+  color: aliceblue;
 }
 .texte{
   color: rgb(255, 255, 255);
@@ -86,6 +87,7 @@ footer{
   font-family: "Montserrat", serif;
   margin-left: 2em;
 }
-.onglets:hover{
+.accueil:hover,.wall:hover,.forum:hover,.about:hover{
   background-color: rgb(92, 181, 155);
+  padding: 0.2em;
 }
