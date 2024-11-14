@@ -35,6 +35,21 @@ body{
   margin-right: 2em;
 }
 .texte{
-  color: white;
+  color: rgb(255, 255, 255);
+  size: 2em;
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  font-size: "Montserrat", serif;
 }
-
+.top{
+  color: rgb(240, 240, 240);
+  font-size: "Montserrat", serif;
+  font-size: 2em;
+  display:flex;
+  margin-top: 2em;
+  justify-content: center;
+}
+.images{
+  font-size: 8em;
+}
