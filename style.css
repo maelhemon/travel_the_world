@@ -33,7 +33,13 @@ body{
   gap: 1.25rem; 
   margin-left: auto; 
   margin-right: 2em;
-  color: aliceblue;
+
+}
+.onglets a {
+  text-decoration: none; /* Enlever le soulignement */
+  color: aliceblue; /* Définir la couleur par défaut des liens */
+  padding: 0.5em; /* Espacement autour des liens */
+  font-weight: bold; /* Pour rendre les liens plus visibles */
 }
 .texte{
   color: rgb(255, 255, 255);
@@ -91,3 +97,4 @@ footer{
   background-color: rgb(92, 181, 155);
   padding: 0.2em;
 }
+
