@@ -97,4 +97,39 @@ footer{
   background-color: rgb(92, 181, 155);
   padding: 0.2em;
 }
+/*responsuve ordi*/
+@media  screen and (min-width:1025px) {
+  .galeie{
+      display: grid;     /*on initialise grid pour mettre en forme les images*/
+      grid-template-columns: repeat(4,1fr); /*on crée 4 colonnes de taille 1 fraction chacune (repeat permet de simplier au lieu d'ecrire 1fr 1fr 1fr 1fr*/
+      grid-template-rows: repeat(6,1fr);
+      justify-items: center;/*on centre le grid au milieu de la page*/
+      gap:0.6em;/*on laisse de l'espace entre les images*/
+ 
+  }  
+}
+/*responsive tablette*/
+@media screen and (min-width:768px) and (max-width:1024px){  
+  .galeie{
+      display: grid;
+      grid-template-columns:repeat(3,1fr);/*On crée 5 colonnes (donc 5 images)*/
+      grid-template-rows: repeat(3,1fr);
+      gap: 0.6em;
+      justify-items: center;
+      
+  }
+}
+/*responsive mobile*/
+@media screen and (max-width:767px) {
+  .galeie{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);/*on crée 3 colonnes */
+      grid-template-rows: repeat(3,1fr);
+      gap:0.6em;
+      justify-items:center;
+    }
+    .onglets{
+      display: flex;
+      flex-wrap: wrap;
+    }
 
