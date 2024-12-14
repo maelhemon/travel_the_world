@@ -36,9 +36,9 @@ body{
 }
 .onglets a {
   text-decoration: none; /* Enlever le soulignement */
-  color: aliceblue; /* Définir la couleur par défaut des liens */
-  padding: 0.5em; /* Espacement autour des liens */
-  font-weight: bold; /* Pour rendre les liens plus visibles */
+  color: aliceblue;
+  padding: 0.5em; 
+  font-weight: bold; 
 }
 .texte{
   color: rgb(255, 255, 255);
@@ -99,9 +99,9 @@ footer{
 .section{
   font-family: "Montserrat", serif;
   font-weight: 500;
-  font-size: 1.6rem;
+  font-size: 1rem;
   line-height: 1.3;
-  margin: 0 0 4em
+  margin: 2 1 6em
 }
 .project{
   display: block;
@@ -109,6 +109,7 @@ footer{
   text-decoration: none;
   margin: 1em 0;
   cursor: pointer;
+  box-shadow :none;
 }
 figure{
   margin: 0;
@@ -127,8 +128,10 @@ figure{
 }
 .project h3{
   color:#e9efef;
-  margin:0; 
+  margin-top: 1em; 
+  margin-right: 1.2em;
   font-size: 1em;
+  display: flex;
 }
 .cta{
   margin: .3em 0;
@@ -164,8 +167,8 @@ figure{
       transition:transform 0.4s ;
     }
     .project figure:hover img {
-      transform: translateY(-110px); /* Déplace l'image de 90px vers le haut */
-      transition: transform 0.3s ease; /* Ajoute une transition pour un effet de glissement fluide */
+      transform: translateY(-110px); 
+      transition: transform 0.3s ease; 
     }
     .project figcaption{
       position: absolute;
@@ -176,3 +179,37 @@ figure{
       width: 100%;
     }
 }
+@media screen and (max-width: 960px) {
+  .destination {
+      flex-direction: column; 
+      align-items: center; 
+      margin-bottom: 2em; 
+  }
+
+  .images {
+      width: 80%; 
+      height: auto; 
+      margin-top: 0.2em; 
+      margin-right: 0.7em;
+  }
+
+  .description {
+      padding: 1em; 
+      text-align: center; 
+  }
+  .texte {
+      font-size: 1em; 
+      margin-bottom: 1em; 
+  }
+
+  .top {
+      font-size: 1.2em; 
+      margin-bottom: 1em; 
+  }
+  .onglets{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
