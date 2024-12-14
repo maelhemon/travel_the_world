@@ -96,11 +96,11 @@ footer{
   background-color: rgb(92, 181, 155);
   padding: 0.2em;
 }
-.section{
+.top_dest{
   font-family: "Montserrat", serif;
   font-weight: 500;
   font-size: 1rem;
-  line-height: 1.3;
+  line-height: 1.3 em;
   margin: 2 1 6em
 }
 .project{
